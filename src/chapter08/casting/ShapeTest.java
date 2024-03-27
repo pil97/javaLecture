@@ -19,8 +19,6 @@ public class ShapeTest {
 		if (shape1 instanceof Circle) {
 			Circle c1 = (Circle) shape1;
 			c1.method1();
-			
-			
 			System.out.println(shape1);
 			System.out.println(c1);
 		}
