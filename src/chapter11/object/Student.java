@@ -21,7 +21,8 @@ public class Student {
 
 	@Override
 	public int hashCode() {
-		System.out.println("hashCode");
+		// TODO Auto-generated method stub
+		// return super.hashCode();
 		return grade;
 	}
 
@@ -30,16 +31,15 @@ public class Student {
 		System.out.println("equals 메서드");
 		if (obj instanceof Student) {
 			Student std = (Student) obj;
-			if(grade == std.grade && name.equals(std.name)) {
+			if (grade == std.grade && name.equals(std.name)) {
 				return true;
 			} else {
 				return false;
-			} 
+			}
 		} else {
 			return false;
 		}
 
 	}
-
 
 }
