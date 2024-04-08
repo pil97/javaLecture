@@ -1,4 +1,4 @@
-package chapter15.Stream;
+package chapter15.stream;
 
 import java.util.Arrays;
 
